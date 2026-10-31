@@ -1,0 +1,426 @@
+{
+  "_source": "https://stoinly.computer/ — extracted from the site's own bundle assets/board-D2RDZz3p.js on 2026-10-29",
+  "series": "SERIES 1",
+  "pack_size": 5,
+  "pack_draw": "weighted by rarity weight, without replacement within a pack",
+  "rarities": {
+    "common": {
+      "label": "COMMON",
+      "weight": 5
+    },
+    "rare": {
+      "label": "RARE",
+      "weight": 3
+    },
+    "holo": {
+      "label": "HOLO",
+      "weight": 2
+    },
+    "ultra": {
+      "label": "ULTRA HOLO",
+      "weight": 1
+    }
+  },
+  "lanes": [
+    {
+      "key": "strong",
+      "label": "STRONG WOMEN",
+      "color": "var(--hot)"
+    },
+    {
+      "key": "guest",
+      "label": "SPECIAL GUESTS",
+      "color": "#00d455"
+    },
+    {
+      "key": "action",
+      "label": "ACTION CARDS",
+      "color": "#4d9fff"
+    },
+    {
+      "key": "place",
+      "label": "PLACES",
+      "color": "#ff9500"
+    },
+    {
+      "key": "vehicle",
+      "label": "VEHICLES",
+      "color": "#ff4444"
+    },
+    {
+      "key": "stoinly",
+      "label": "???",
+      "color": "var(--gold)"
+    }
+  ],
+  "field_limits": {
+    "name": 26,
+    "role": 40,
+    "by": 28
+  },
+  "cards": [
+    {
+      "id": "legally-strong",
+      "pos": "50% 4%",
+      "num": 1,
+      "name": "THE MACHINE",
+      "role": "IFBB PROFESSIONAL",
+      "cat": "strong",
+      "rarity": "rare",
+      "img": "/gallery/g2_anna_kushkian.jpg",
+      "credit": "PHOTO: Karenkushkyan / CC BY-SA 4.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "the-original",
+      "pos": "50% 20%",
+      "num": 2,
+      "name": "THE ORIGINAL",
+      "role": "FOUNDING MOTHER · 1979",
+      "cat": "strong",
+      "rarity": "holo",
+      "img": "/gallery/g3_kellie_everts.jpg",
+      "credit": "PHOTO: Kellie Everts, 1979 / CC0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "glamazons",
+      "pos": "62% 30%",
+      "num": 3,
+      "name": "THE GLAMAZONS",
+      "role": "TAG TEAM",
+      "cat": "strong",
+      "rarity": "rare",
+      "img": "/gallery/g5_glamazons.jpg",
+      "credit": "PHOTO: istolethetv / CC BY 2.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "purple-power",
+      "pos": "20% 30%",
+      "num": 4,
+      "name": "PURPLE POWER PRINCESS",
+      "role": "ROYALTY DIVISION",
+      "cat": "strong",
+      "rarity": "common",
+      "img": "/gallery/g6_purple_power.jpg",
+      "credit": "PHOTO: istolethetv / CC BY 2.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "professionally-strong",
+      "pos": "50% 15%",
+      "num": 5,
+      "name": "QUEEN OF THE CIRCUIT",
+      "role": "IFBB PROFESSIONAL",
+      "cat": "strong",
+      "rarity": "rare",
+      "img": "/cards/c7_dayana.jpg",
+      "credit": "PHOTO: PUBLIC DOMAIN / WIKIMEDIA COMMONS (2007)"
+    },
+    {
+      "id": "the-bicep",
+      "pos": "50% 0%",
+      "num": 6,
+      "name": "THE BICEP",
+      "role": "BICEPS DEPARTMENT",
+      "cat": "strong",
+      "rarity": "holo",
+      "img": "/cards/c8_aleesha.jpg",
+      "credit": "PHOTO: Fbbcraze / CC BY-SA 4.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "tim-cook",
+      "pos": "50% 10%",
+      "num": 7,
+      "name": "TIMOTHY DONALD COOK",
+      "role": "INVITED GUEST · CUPERTINO, CALIFORNIA",
+      "cat": "guest",
+      "rarity": "holo",
+      "img": "/cards/c13_tim.jpg",
+      "credit": "PHOTO: Valery Marchive / CC BY-SA 2.0 / WIKIMEDIA COMMONS (2009)"
+    },
+    {
+      "id": "tech-n9ne",
+      "pos": "50% 25%",
+      "num": 8,
+      "name": "TECH N9NE",
+      "role": "SPECIAL GUEST · KANSAS CITY, MISSOURI",
+      "cat": "guest",
+      "rarity": "holo",
+      "img": "/cards/c14_techn9ne.jpg",
+      "credit": "PHOTO: Mizery Made / CC BY-SA 3.0 / WIKIMEDIA COMMONS (2006)"
+    },
+    {
+      "id": "lil-wayne",
+      "pos": "50% 18%",
+      "num": 9,
+      "name": "LIL WAYNE",
+      "role": "SPECIAL GUEST · NEW ORLEANS, LOUISIANA",
+      "cat": "guest",
+      "rarity": "holo",
+      "img": "/cards/c15_lilwayne.jpg",
+      "credit": "PHOTO: Ryan Dombal / CC BY-SA 2.0 / WIKIMEDIA COMMONS (2007)"
+    },
+    {
+      "id": "amazing-atheist",
+      "pos": "50% 30%",
+      "num": 10,
+      "name": "THE AMAZING ATHEIST",
+      "role": "SPECIAL GUEST · LOUISIANA",
+      "cat": "guest",
+      "rarity": "holo",
+      "img": "/cards/c22_tj.png",
+      "credit": "PHOTO: DemonMama / CC BY 3.0 / WIKIMEDIA COMMONS (2021)"
+    },
+    {
+      "id": "weird-al",
+      "pos": "50% 15%",
+      "num": 11,
+      "name": "WEIRD AL",
+      "role": "SPECIAL GUEST · LYNWOOD, CALIFORNIA",
+      "cat": "guest",
+      "rarity": "holo",
+      "img": "/cards/c35_weirdal.jpg",
+      "credit": "PHOTO: Maxamegalon2000 / CC BY-SA 3.0 / WIKIMEDIA COMMONS (2007)"
+    },
+    {
+      "id": "yelawolf",
+      "pos": "50% 30%",
+      "num": 12,
+      "name": "YELAWOLF",
+      "role": "SPECIAL GUEST · GADSDEN, ALABAMA",
+      "cat": "guest",
+      "rarity": "holo",
+      "img": "/cards/c36_yela.jpg",
+      "credit": "PHOTO: Dominick Brady / CC BY 2.0 / WIKIMEDIA COMMONS (2008)"
+    },
+    {
+      "id": "touch-the-ceiling",
+      "pos": "50% 30%",
+      "num": 13,
+      "name": "TOUCH THE CEILING",
+      "role": "ACTION CARD · VERTICAL DIVISION",
+      "cat": "action",
+      "rarity": "rare",
+      "img": "/cards/c16_ceiling.jpg",
+      "credit": "PHOTO: TonyTheTiger / CC BY-SA 3.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "let-me-see-your-guy",
+      "pos": "45% 50%",
+      "num": 14,
+      "name": "LET ME SEE YOUR GUY",
+      "role": "ACTION CARD · VAPE DIPLOMACY",
+      "cat": "action",
+      "rarity": "common",
+      "img": "/cards/c17_guy.jpg",
+      "credit": "PHOTO: Lindsay Fox, ecigarettereviewed.com / CC BY 3.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "white-monster",
+      "pos": "60% 50%",
+      "num": 15,
+      "name": "DRINK A MONSTER",
+      "role": "ACTION CARD · ZERO SUGAR",
+      "cat": "action",
+      "rarity": "common",
+      "img": "/cards/c18_monster.jpg",
+      "credit": "PHOTO: Perman6647 / CC0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "throw-in-a-lip",
+      "pos": "50% 22%",
+      "num": 16,
+      "name": "THROW IN A LIP",
+      "role": "ACTION CARD · WINTERGREEN DIVISION",
+      "cat": "action",
+      "rarity": "rare",
+      "img": "/cards/c19_lip.jpg",
+      "credit": "PHOTO: U.S. MARINE CORPS / PUBLIC DOMAIN / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "lace-up-the-dcs",
+      "pos": "50% 45%",
+      "num": 17,
+      "name": "LACE UP THE KICKS",
+      "role": "ACTION CARD · FOOTWEAR DIVISION",
+      "cat": "action",
+      "rarity": "common",
+      "img": "/cards/c20_dcs.jpg",
+      "credit": "PHOTO: Tking61 / CC0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "smoke-the-jawn",
+      "pos": "52% 45%",
+      "num": 18,
+      "name": "SMOKE THE JAWN",
+      "role": "ACTION CARD · PHILADELPHIA DIVISION",
+      "cat": "action",
+      "rarity": "rare",
+      "img": "/cards/c21_jawn.jpg",
+      "credit": "PHOTO: Elsa Olofsson / CC BY 2.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "white-hen",
+      "pos": "50% 45%",
+      "num": 19,
+      "name": "WHITE HEN",
+      "role": "PLACE CARD · CONVENIENCE DIVISION",
+      "cat": "place",
+      "rarity": "common",
+      "img": "/cards/c27_whitehen.jpg",
+      "credit": "PHOTO: peretzpup / CC BY-SA 2.0 / FLICKR"
+    },
+    {
+      "id": "the-swamp",
+      "pos": "50% 55%",
+      "num": 20,
+      "name": "THE SWAMP",
+      "role": "PLACE CARD · FORMERLY A POOL",
+      "cat": "place",
+      "rarity": "rare",
+      "img": "/cards/c28_swamp.jpg",
+      "credit": "PHOTO: Ursus sapien / CC BY-SA 3.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "roulains-room",
+      "pos": "45% 45%",
+      "num": 21,
+      "name": "ROULAIN'S ROOM",
+      "role": "PLACE CARD · EXCHANGE PROGRAM",
+      "cat": "place",
+      "rarity": "holo",
+      "img": "/cards/c29_roulain.jpg",
+      "credit": "PHOTO: hapinachu / CC BY-SA 2.0 / FLICKR (2006)"
+    },
+    {
+      "id": "open-crib",
+      "pos": "50% 45%",
+      "num": 22,
+      "name": "OPEN CRIB",
+      "role": "PLACE CARD · PARENTS OUT OF TOWN",
+      "cat": "place",
+      "rarity": "rare",
+      "img": "/cards/c30_crib.jpg",
+      "credit": "PHOTO: Richard Eriksson / CC BY 2.0 / FLICKR"
+    },
+    {
+      "id": "wrestling-practice",
+      "pos": "50% 55%",
+      "num": 23,
+      "name": "WRESTLING MEET",
+      "role": "PLACE CARD · ALL DAY SATURDAY",
+      "cat": "place",
+      "rarity": "common",
+      "img": "/cards/c31_wrestling.jpg",
+      "credit": "PHOTO: PUBLIC DOMAIN / WIKIMEDIA COMMONS (2005)"
+    },
+    {
+      "id": "rehab",
+      "pos": "55% 45%",
+      "num": 24,
+      "name": "REHAB",
+      "role": "PLACE CARD · 28 DAYS",
+      "cat": "place",
+      "rarity": "rare",
+      "img": "/cards/c37_rehab.jpg",
+      "credit": "PHOTO: Randomgbear / CC BY-SA 3.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "grand-caravan",
+      "pos": "48% 55%",
+      "num": 25,
+      "name": "THE GRAND CARAVAN",
+      "role": "VEHICLE · MOM'S",
+      "cat": "vehicle",
+      "rarity": "common",
+      "img": "/cards/c32_caravan.jpg",
+      "credit": "PHOTO: IFCAR / PUBLIC DOMAIN / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "tiburon",
+      "pos": "52% 50%",
+      "num": 26,
+      "name": "HYUNDAI TIBURON",
+      "role": "VEHICLE · BASICALLY A FERRARI",
+      "cat": "vehicle",
+      "rarity": "rare",
+      "img": "/cards/c33_tiburon.jpg",
+      "credit": "PHOTO: IFCAR / PUBLIC DOMAIN / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "the-huffy",
+      "pos": "50% 45%",
+      "num": 27,
+      "name": "THE HUFFY",
+      "role": "VEHICLE · BMX DIVISION",
+      "cat": "vehicle",
+      "rarity": "common",
+      "img": "/cards/c34_huffy.jpg",
+      "credit": "PHOTO: Yubei9 / CC BY-SA 4.0 / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "razor-scooter",
+      "pos": "45% 45%",
+      "num": 28,
+      "name": "THE RAZOR",
+      "role": "VEHICLE · ANKLE HAZARD",
+      "cat": "vehicle",
+      "rarity": "common",
+      "img": "/cards/c38_razor.jpg",
+      "credit": "PHOTO: felixp7 / CC BY-SA 2.0 / FLICKR"
+    },
+    {
+      "id": "the-civic",
+      "pos": "50% 50%",
+      "num": 29,
+      "name": "THE CIVIC",
+      "role": "VEHICLE · FIRST CAR",
+      "cat": "vehicle",
+      "rarity": "common",
+      "img": "/cards/c39_civic.jpg",
+      "credit": "PHOTO: PUBLIC DOMAIN / WIKIMEDIA COMMONS"
+    },
+    {
+      "id": "school-bus",
+      "pos": "50% 50%",
+      "num": 30,
+      "name": "THE SCHOOL BUS",
+      "role": "VEHICLE · BACK SEATS",
+      "cat": "vehicle",
+      "rarity": "common",
+      "img": "/cards/c40_bus.jpg",
+      "credit": "PHOTO: Rundvald / PUBLIC DOMAIN / WIKIMEDIA COMMONS (2007)"
+    },
+    {
+      "id": "stoinly",
+      "pos": "50% 50%",
+      "num": 31,
+      "name": "THE STOINLY",
+      "role": "???",
+      "cat": "stoinly",
+      "rarity": "ultra",
+      "img": "/stoinly-moon.png",
+      "credit": "ACTUAL PHOTOGRAPH OF THE STOINLY"
+    },
+    {
+      "id": "financial-crisis",
+      "pos": "50% 60%",
+      "num": 32,
+      "name": "THE 2008 FINANCIAL CRISIS",
+      "role": "??? · HISTORICAL EVENT · TOO BIG TO FAIL",
+      "cat": "stoinly",
+      "rarity": "ultra",
+      "img": "/cards/c26_crisis.jpg",
+      "credit": "PHOTO: Robert Scoble / CC BY 2.0 / WIKIMEDIA COMMONS (SEP 15, 2008, 8:38 PM)"
+    },
+    {
+      "id": "parents-divorce",
+      "pos": "45% 55%",
+      "num": 33,
+      "name": "PARENTS' DIVORCE",
+      "role": "??? · HISTORICAL EVENT · EVERY OTHER WEEKEND",
+      "cat": "stoinly",
+      "rarity": "ultra",
+      "img": "/cards/c41_divorce.jpg",
+      "credit": "PHOTO: Artaxerxes / CC BY-SA 4.0 / WIKIMEDIA COMMONS"
+    }
+  ]
+}
