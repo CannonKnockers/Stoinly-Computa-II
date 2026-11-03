@@ -1,0 +1,336 @@
+{
+  "id": "doom",
+  "title": "STOINLY COMPUTER",
+  "tagline": "Six maps, one night in 1995, and the vehicles of a suburban adolescence are hunting you.",
+  "genre": "Doom-like FPS",
+  "entry": "index.html",
+  "accent": "#00ff00",
+  "cover": "assets/png/hud/title.png",
+  "saveKeys": [
+    "stoinly.doom.meta.v1",
+    "stoinly.collection",
+    "stoinly.options",
+    "stoinly.save.0",
+    "stoinly.save.1",
+    "stoinly.save.2",
+    "stoinly.save.3",
+    "stoinly.save.4",
+    "stoinly.save.5"
+  ],
+  "savePrefixes": [],
+  "actions": [
+    {
+      "id": "forward",
+      "label": "Walk forward",
+      "defaults": [
+        "KeyW",
+        "ArrowUp"
+      ]
+    },
+    {
+      "id": "back",
+      "label": "Walk back",
+      "defaults": [
+        "KeyS",
+        "ArrowDown"
+      ]
+    },
+    {
+      "id": "strafe_left",
+      "label": "Step left",
+      "defaults": [
+        "KeyA"
+      ]
+    },
+    {
+      "id": "strafe_right",
+      "label": "Step right",
+      "defaults": [
+        "KeyD"
+      ]
+    },
+    {
+      "id": "turn_left",
+      "label": "Turn left",
+      "defaults": [
+        "ArrowLeft"
+      ]
+    },
+    {
+      "id": "turn_right",
+      "label": "Turn right",
+      "defaults": [
+        "ArrowRight"
+      ]
+    },
+    {
+      "id": "strafe_mod",
+      "label": "Hold: turn keys step sideways",
+      "defaults": [
+        "AltLeft",
+        "AltRight"
+      ]
+    },
+    {
+      "id": "run",
+      "label": "Hold: walk (run when ALWAYS RUN is off)",
+      "defaults": [
+        "ShiftLeft",
+        "ShiftRight"
+      ]
+    },
+    {
+      "id": "fire",
+      "label": "Fire",
+      "defaults": [
+        "ControlLeft",
+        "ControlRight"
+      ]
+    },
+    {
+      "id": "use",
+      "label": "Use (doors, switches)",
+      "defaults": [
+        "Space",
+        "KeyE"
+      ]
+    },
+    {
+      "id": "weapon1",
+      "label": "Weapon 1 (hands / THE RAZOR)",
+      "defaults": [
+        "Digit1",
+        "Numpad1"
+      ]
+    },
+    {
+      "id": "weapon2",
+      "label": "Weapon 2",
+      "defaults": [
+        "Digit2",
+        "Numpad2"
+      ]
+    },
+    {
+      "id": "weapon3",
+      "label": "Weapon 3",
+      "defaults": [
+        "Digit3",
+        "Numpad3"
+      ]
+    },
+    {
+      "id": "weapon4",
+      "label": "Weapon 4",
+      "defaults": [
+        "Digit4",
+        "Numpad4"
+      ]
+    },
+    {
+      "id": "weapon5",
+      "label": "Weapon 5",
+      "defaults": [
+        "Digit5",
+        "Numpad5"
+      ]
+    },
+    {
+      "id": "weapon6",
+      "label": "Weapon 6",
+      "defaults": [
+        "Digit6",
+        "Numpad6"
+      ]
+    },
+    {
+      "id": "weapon7",
+      "label": "Weapon 7",
+      "defaults": [
+        "Digit7",
+        "Numpad7"
+      ]
+    },
+    {
+      "id": "automap",
+      "label": "Map",
+      "defaults": [
+        "Tab"
+      ]
+    },
+    {
+      "id": "pause",
+      "label": "Pause",
+      "defaults": [
+        "KeyP",
+        "Pause"
+      ]
+    },
+    {
+      "id": "menu",
+      "label": "Open the menu (in play)",
+      "defaults": [
+        "Escape"
+      ]
+    },
+    {
+      "id": "quicksave",
+      "label": "Save game menu",
+      "defaults": [
+        "F2",
+        "F5"
+      ]
+    },
+    {
+      "id": "quickload",
+      "label": "Load game menu",
+      "defaults": [
+        "F3",
+        "F6"
+      ]
+    },
+    {
+      "id": "menu_up",
+      "label": "Menu up (also scrolls the credits)",
+      "defaults": [
+        "ArrowUp",
+        "KeyW"
+      ]
+    },
+    {
+      "id": "menu_down",
+      "label": "Menu down (also scrolls the credits)",
+      "defaults": [
+        "ArrowDown",
+        "KeyS"
+      ]
+    },
+    {
+      "id": "menu_left",
+      "label": "Menu left / slider down",
+      "defaults": [
+        "ArrowLeft",
+        "KeyA"
+      ]
+    },
+    {
+      "id": "menu_right",
+      "label": "Menu right / slider up",
+      "defaults": [
+        "ArrowRight",
+        "KeyD"
+      ]
+    },
+    {
+      "id": "menu_ok",
+      "label": "Menu choose / skip the tally",
+      "defaults": [
+        "Enter",
+        "NumpadEnter",
+        "Space",
+        "KeyE"
+      ]
+    },
+    {
+      "id": "menu_back",
+      "label": "Menu back",
+      "defaults": [
+        "Escape",
+        "Backspace"
+      ]
+    },
+    {
+      "id": "yes",
+      "label": "Answer yes to a question",
+      "defaults": [
+        "KeyY",
+        "Enter",
+        "NumpadEnter"
+      ]
+    },
+    {
+      "id": "no",
+      "label": "Answer no to a question",
+      "defaults": [
+        "KeyN",
+        "Escape"
+      ]
+    },
+    {
+      "id": "confirm",
+      "label": "Confirm a save name / close the credits",
+      "defaults": [
+        "Enter",
+        "NumpadEnter"
+      ]
+    },
+    {
+      "id": "erase",
+      "label": "Erase a letter of a save name",
+      "defaults": [
+        "Backspace"
+      ]
+    },
+    {
+      "id": "cancel",
+      "label": "Stop typing a save name",
+      "defaults": [
+        "Escape"
+      ]
+    }
+  ],
+  "mouse": [
+    "Click the screen to capture the pointer; move the mouse to turn",
+    "Left click: fire; in menus, choose",
+    "Wheel: next or previous weapon"
+  ],
+  "howToPlay": [
+    {
+      "title": "Goal",
+      "body": "Six maps, one per hour of one night in 1995: WHITE HEN (9 PM), THE SWAMP (10 PM), ROULAIN’S ROOM (11 PM), OPEN CRIB (12 AM), WRESTLING MEET (1 AM) and REHAB (2 AM). Each map ends at its exit, an exit floor or an exit switch. In REHAB, beating the CRISIS card starts the end of the night."
+    },
+    {
+      "title": "Moving",
+      "body": "W and S or Up and Down walk, A and D step sideways, Left and Right turn (hold Alt to step instead), and the mouse turns once you click the screen. ALWAYS RUN is on at the start; hold Shift to walk."
+    },
+    {
+      "title": "Doors and switches",
+      "body": "Use (Space or E) opens the door or flips the switch in front of you. Some doors need the blue, red or gold keycard; the keycards you hold show on the status bar."
+    },
+    {
+      "title": "Fighting",
+      "body": "Ctrl or left click fires. 1 to 7 pick a weapon you own (1 switches between your hands and THE RAZOR) and the wheel steps through them."
+    },
+    {
+      "title": "The cards",
+      "body": "Every enemy is a SERIES 1 trading card, photo and all. Defeating one pulls its card into YOUR COLLECTION (33 cards), and each map pulls its own PLACES card when you enter it. The collection is on the main menu."
+    },
+    {
+      "title": "Stars",
+      "body": "Each map has three stars: finish it, kill 75% or more, and beat par or find every secret. P pauses and shows this map’s stars and your counts so far; Tab shows the map."
+    },
+    {
+      "title": "FOIL and THE LOCKER",
+      "body": "Stars and the daily chest pay FOIL. THE LOCKER on the main menu holds weapon skins and HUD colours: some are bought with FOIL, some unlock at a number of stars, one at a 3-day streak. Nothing costs real money."
+    },
+    {
+      "title": "Every day",
+      "body": "DAILY CHALLENGE plays one map with a modifier, both picked from the date. DAILY CHEST opens once a day after three pokes. Playing a map on consecutive days builds the day streak."
+    },
+    {
+      "title": "Menus and saving",
+      "body": "Esc opens the menu: new game (five skills, from BE POLITE to RUDIGER), options, six save slots and the credits. F2 or F5 jump to SAVE GAME, F3 or F6 to LOAD GAME. Stars, FOIL, unlocks, the collection and the options save by themselves in this browser."
+    }
+  ],
+  "settingsSupport": {
+    "audio": true,
+    "music": true,
+    "shake": true,
+    "flashes": true,
+    "particles": true,
+    "textScale": "partial",
+    "colorblind": true,
+    "performance": true,
+    "rebinding": true
+  }
+}

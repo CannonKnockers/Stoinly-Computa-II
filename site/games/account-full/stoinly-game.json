@@ -1,0 +1,66 @@
+{
+  "id": "account-full",
+  "title": "ACCOUNT FULL",
+  "tagline": "The bank says the account is full. Give the money away before it gets in.",
+  "genre": "Tower defense with trading cards",
+  "entry": "index.html",
+  "accent": "#00ff00",
+  "cover": "assets/photos/stoinly-moon.png",
+  "saveKeys": [
+    "account-full.save.v1",
+    "account-full.settings.v1",
+    "account-full.binder.v1",
+    "stoinly.accountfull.meta.v1",
+    "stoinly.accountfull.meta.v1.corrupt"
+  ],
+  "savePrefixes": [],
+  "actions": [
+    { "id": "speed", "label": "Game speed (1x, 2x, 3x)", "defaults": ["Space"] },
+    { "id": "start", "label": "Start the round (on the title: press start)", "defaults": ["Enter", "NumpadEnter"] },
+    { "id": "pack", "label": "Rip a pack", "defaults": ["KeyP"] },
+    { "id": "binder", "label": "Open the binder", "defaults": ["KeyB"] },
+    { "id": "sound", "label": "Sound on/off (in-game mute)", "defaults": ["KeyM"] },
+    { "id": "back", "label": "Close or cancel; open the menu", "defaults": ["Escape"] },
+    { "id": "hand1", "label": "Pick card 1 from the hand", "defaults": ["Digit1", "Numpad1"] },
+    { "id": "hand2", "label": "Pick card 2 from the hand", "defaults": ["Digit2", "Numpad2"] },
+    { "id": "hand3", "label": "Pick card 3 from the hand", "defaults": ["Digit3", "Numpad3"] },
+    { "id": "hand4", "label": "Pick card 4 from the hand", "defaults": ["Digit4", "Numpad4"] },
+    { "id": "hand5", "label": "Pick card 5 from the hand", "defaults": ["Digit5", "Numpad5"] },
+    { "id": "hand6", "label": "Pick card 6 from the hand", "defaults": ["Digit6", "Numpad6"] },
+    { "id": "hand7", "label": "Pick card 7 from the hand", "defaults": ["Digit7", "Numpad7"] },
+    { "id": "hand8", "label": "Pick card 8 from the hand", "defaults": ["Digit8", "Numpad8"] },
+    { "id": "hand9", "label": "Pick card 9 from the hand", "defaults": ["Digit9", "Numpad9"] }
+  ],
+  "mouse": [
+    "Drag a card from the hand onto the board, or click it and then click the board",
+    "Click a placed card to upgrade it or, between rounds, pick it back up",
+    "Drop a card on TRADE IN to swap it for gum",
+    "Click a pack to rip it, then click the cards to flip them"
+  ],
+  "touch": [
+    "Drag a card from the hand onto the board, or tap it and then tap the board",
+    "Tap a placed card to upgrade it or, between rounds, pick it back up",
+    "On a phone held upright the board scrolls sideways; held sideways the hand moves to the right"
+  ],
+  "howToPlay": [
+    { "title": "Goal", "body": "Money comes out of the mail and walks along the track to the account. The account has $500 of room. Every dollar that gets in uses some of it, and at zero the bank deletes everything. Clear all 30 rounds to win; the last round is the bailout." },
+    { "title": "Money", "body": "A bill's value is its health. A hit gives part of it away: a $20 that takes a $4 hit keeps walking as a $16, a little faster. Later rounds bring checks (from round 6), accruing bills (9), wires (12), crypto (14), briefcases (15), strapped money (17), armored trucks full of briefcases (23) and, in round 30, the bailout." },
+    { "title": "Cards", "body": "There are 33 cards. Strong women (6) and special guests (6) stand next to the track and work on money in range. Places (6) and vehicles (6) go on the track. Action cards (6) are played once; most of them only during a round. The three ??? cards are the stoinly's: one stays on the board and makes every dollar lighter every six seconds, two are one-off actions. Every card that stays on the board can be upgraded twice." },
+    { "title": "Gum and packs", "body": "You start with 4 gum. Every round pays gum, and so does finished money: a little per bill, more for briefcases, trucks and the bailout. A pack is 5 cards with no repeats, drawn at the site's odds (common 5, rare 3, holo 2, ultra 1). The first pack is free and always has a strong woman in it; the next costs 4 gum and each one after that costs 2 more." },
+    { "title": "Placing", "body": "Drag a card from the hand onto the board, or tap it and then tap the board. Tap a placed card to upgrade it with gum or, between rounds only, pick it back up. Drop a card on TRADE IN to swap it for gum. Cards standing next to the track can be told which money to aim at: first, last, strongest or weakest." },
+    { "title": "Rounds and saving", "body": "Press START ROUND (or the start key) to send the next round. Game speed goes 1x, 2x, 3x, and AUTO START starts the next round two seconds after one is cleared. The run is saved in the browser between rounds, so leaving or reloading during a round starts that round over." },
+    { "title": "Stars", "body": "A run earns one star for clearing round 10, one for round 20 and one for clearing all 30, each paid once per run when the round is cleared. Stars, counted over every run, unlock cosmetics only: card backs, boards, bill bursts and pack wrappers. None of them change the rules." },
+    { "title": "Daily things", "body": "The daily challenge is a normal run seeded from your local date, so everyone rips the same packs that day; it keeps its own best. The day streak counts days in a row on which you started a round. The daily chest opens once per local day and gives stars or a chest-only cosmetic." }
+  ],
+  "settingsSupport": {
+    "audio": true,
+    "music": false,
+    "shake": true,
+    "flashes": true,
+    "particles": true,
+    "textScale": "partial",
+    "colorblind": true,
+    "performance": true,
+    "rebinding": true
+  }
+}

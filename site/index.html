@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>::: STOINLY NEXUS ::: FOUR GAMES ONE COMPUTER :::</title>
+<meta name="description" content="The STOINLY NEXUS: a local launcher for four free Stoinly games.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="css/nexus.css">
+<script>
+  // Errors land in the page too, so a headless --dump-dom run can see them.
+  window.__nexusErrors = [];
+  function __nexusErr(msg) {
+    window.__nexusErrors.push(String(msg));
+    var el = document.getElementById('nexus-errors');
+    if (el) { el.textContent = window.__nexusErrors.join('\n'); el.hidden = false; }
+  }
+  window.addEventListener('error', function (e) { __nexusErr('ERROR: ' + e.message + ' @ ' + (e.filename || '') + ':' + (e.lineno || '')); });
+  window.addEventListener('unhandledrejection', function (e) { __nexusErr('REJECTION: ' + (e.reason && e.reason.stack || e.reason)); });
+</script>
+<script src="shared/stoinly-settings.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="ticker" aria-hidden="true"><div class="ticker-track" id="tickerTop"></div></div>
+
+<div id="wordmark"></div>
+<hr class="rainbow-rule" aria-hidden="true">
+
+<header class="subnav">
+  <a class="subnav-brand" href="#/" aria-label="STOINLY NEXUS home"><span class="subnav-word">STOINLY</span><span class="subnav-sub">NEXUS</span></a>
+  <nav class="subnav-links" aria-label="Main">
+    <a href="#/" data-nav="home">HOME</a>
+    <a href="#/settings/audio" data-nav="settings">SETTINGS</a>
+    <a href="#/welcome" data-nav="welcome">NEW HERE?</a>
+    <a href="#/faq" data-nav="faq">FAQ</a>
+    <button type="button" class="mute-btn" id="muteBtn" aria-pressed="false">SOUND ON</button>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1"></main>
+
+<pre id="nexus-errors" hidden style="position:fixed;left:0;right:0;bottom:0;z-index:999;margin:0;max-height:40vh;overflow:auto;background:#300;color:#fff;font:12px monospace;padding:8px;white-space:pre-wrap"></pre>
+
+<hr class="rainbow-rule" aria-hidden="true">
+<footer class="foot" id="foot"></footer>
+<div class="ticker" aria-hidden="true"><div class="ticker-track reverse" id="tickerBottom"></div></div>
+
+<button type="button" class="free-money" id="newHereSign" aria-label="New here? Open the walkthrough">
+  <span class="fm-glow"></span><span class="fm-star"></span>
+  <span class="fm-plate"><span class="fm-line1">NEW</span><span class="fm-line2">HERE?</span><span class="fm-sub blink d2">CLICK HERE!!!</span></span>
+  <span class="fm-bulb b1"></span><span class="fm-bulb b2"></span><span class="fm-bulb b3"></span><span class="fm-bulb b4"></span>
+  <span class="fm-bulb b5"></span><span class="fm-bulb b6"></span><span class="fm-bulb b7"></span><span class="fm-bulb b8"></span>
+</button>
+
+<div class="overlay" id="overlay" hidden></div>
+<div class="sr-only" aria-live="polite" id="live"></div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STOINLY COMPUTER</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  body { display: flex; align-items: center; justify-content: center; }
+  #screen { image-rendering: pixelated; image-rendering: crisp-edges; display: block; cursor: none; }
+  #errors { display: none; position: fixed; left: 0; right: 0; bottom: 0; max-height: 40%; overflow: auto; margin: 0;
+    padding: 8px 12px; background: #200; color: #f66; font: calc(12px * var(--stoinly-text-scale, 1))/1.4 "Courier New", monospace; white-space: pre-wrap; }
+  /* the ◄ NEXUS link (shown by src/web/main.js only when opened from the STOINLY NEXUS): the site's outset navy button */
+  #nexus { display: none; position: fixed; left: 10px; top: 10px; z-index: 2; padding: 4px 10px; background: #000033;
+    border: 2px outset #6666ff; color: #ffd700; font: bold calc(14px * var(--stoinly-text-scale, 1)) "Courier New", monospace;
+    text-decoration: none; letter-spacing: 1px; }
+  #nexus:hover, #nexus:focus { color: #00ff00; border-style: inset; }
+</style>
+</head>
+<body>
+<canvas id="screen" width="320" height="200"></canvas>
+<a id="nexus" href="../../index.html">&#9668; NEXUS</a>
+<pre id="errors"></pre>
+<script src="src/web/stoinly-settings.js"></script>
+<script src="src/core/math.js"></script>
+<script src="src/core/rng.js"></script>
+<script src="src/core/palette.js"></script>
+<script src="src/core/codec.js"></script>
+<script src="src/core/assets.js"></script>
+<script src="assets/build/sheets.js"></script>
+<script src="src/core/map.js"></script>
+<script src="src/core/render.js"></script>
+<script src="src/core/synth.js"></script>
+<script src="src/core/music.js"></script>
+<script src="src/game/defs/sounds.js"></script>
+<script src="src/game/defs/text.js"></script>
+<script src="src/game/defs/cards.js"></script>
+<script src="src/game/defs/things.js"></script>
+<script src="src/game/text.js"></script>
+<script src="src/game/world.js"></script>
+<script src="src/game/level.js"></script>
+<script src="src/game/player.js"></script>
+<script src="src/game/hud.js"></script>
+<script src="src/game/controls.js"></script>
+<script src="src/game/meta.js"></script>
+<script src="src/game/juice.js"></script>
+<script src="src/game/screens.js"></script>
+<script src="src/game/game.js"></script>
+<script src="levels/kit.js"></script>
+<script src="levels/e1m1.js"></script>
+<script src="levels/e1m2.js"></script>
+<script src="levels/e1m3.js"></script>
+<script src="levels/e1m4.js"></script>
+<script src="levels/e1m5.js"></script>
+<script src="levels/e1m6.js"></script>
+<script src="src/web/audio.js"></script>
+<script src="src/web/input.js"></script>
+<script src="src/web/main.js"></script>
+<script>STOINLY.web.boot();</script>
+</body>
+</html>

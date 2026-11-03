@@ -18,17 +18,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # site/ is the prebuilt STOINLY NEXUS with all four games, made by
+      # nexus/build-site.js in the stoinlycomputergame repo. It's published as-is.
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: site
 
   deploy:
     needs: build

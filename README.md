@@ -1,5 +1,7 @@
 # STOINLY.EXE
 
+> **The live site is now the STOINLY NEXUS: all four Stoinly games in one launcher.** It's served from `site/`, a prebuilt copy made by `nexus/build-site.js` in the stoinlycomputergame repo. The source below is the old build 0.1 card game; the current source for every game lives in stoinlycomputergame.
+
 A card-battle game in the style of Slay the Spire, built from the 33-card "SERIES 1" trading-card set on [stoinly.computer](https://stoinly.computer/).
 
 **Play it in the browser:** https://cannonknockers.github.io/Stoinly-Computa-II/

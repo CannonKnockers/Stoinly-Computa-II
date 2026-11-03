@@ -1,0 +1,229 @@
+{
+  "id": "wreck-riders",
+  "title": "Wreck Riders",
+  "tagline": "Four riders. Five courses. No refunds.",
+  "genre": "Ragdoll physics obstacle course",
+  "entry": "index.html",
+  "accent": "#ff0033",
+  "cover": "cover.png",
+  "saveKeys": [
+    "stoinly.wreckriders.meta.v1",
+    "stoinly.wreckriders.meta.v1.bak",
+    "wreck-riders-best"
+  ],
+  "savePrefixes": [],
+  "actions": [
+    {
+      "id": "up",
+      "label": "Up (push / pedal / speed up / hop forward)",
+      "defaults": [
+        "ArrowUp",
+        "KeyW"
+      ]
+    },
+    {
+      "id": "down",
+      "label": "Down (brake / reverse / hop backward)",
+      "defaults": [
+        "ArrowDown",
+        "KeyS"
+      ]
+    },
+    {
+      "id": "left",
+      "label": "Lean / tilt left",
+      "defaults": [
+        "ArrowLeft",
+        "KeyA"
+      ]
+    },
+    {
+      "id": "right",
+      "label": "Lean / tilt right",
+      "defaults": [
+        "ArrowRight",
+        "KeyD"
+      ]
+    },
+    {
+      "id": "special",
+      "label": "Special (rocket / hop / bunny hop / pogo spring)",
+      "defaults": [
+        "Space"
+      ]
+    },
+    {
+      "id": "passenger",
+      "label": "Eject Pip (bicycle only)",
+      "defaults": [
+        "ShiftLeft",
+        "ShiftRight"
+      ]
+    },
+    {
+      "id": "eject",
+      "label": "Eject the rider",
+      "defaults": [
+        "KeyZ"
+      ]
+    },
+    {
+      "id": "restart",
+      "label": "Restart the course",
+      "defaults": [
+        "KeyR"
+      ]
+    },
+    {
+      "id": "pause",
+      "label": "Pause",
+      "defaults": [
+        "KeyP"
+      ]
+    },
+    {
+      "id": "mute",
+      "label": "Mute (the shared nexus mute)",
+      "defaults": [
+        "KeyM"
+      ]
+    },
+    {
+      "id": "confirm",
+      "label": "Confirm / next course / retry",
+      "defaults": [
+        "Enter",
+        "Space"
+      ]
+    },
+    {
+      "id": "back",
+      "label": "Back one screen",
+      "defaults": [
+        "Escape"
+      ]
+    },
+    {
+      "id": "menuUp",
+      "label": "Menu up",
+      "defaults": [
+        "ArrowUp",
+        "KeyW"
+      ]
+    },
+    {
+      "id": "menuDown",
+      "label": "Menu down",
+      "defaults": [
+        "ArrowDown",
+        "KeyS"
+      ]
+    },
+    {
+      "id": "menuLeft",
+      "label": "Menu left",
+      "defaults": [
+        "ArrowLeft",
+        "KeyA"
+      ]
+    },
+    {
+      "id": "menuRight",
+      "label": "Menu right",
+      "defaults": [
+        "ArrowRight",
+        "KeyD"
+      ]
+    },
+    {
+      "id": "daily",
+      "label": "Daily challenge (title screen)",
+      "defaults": [
+        "KeyD"
+      ]
+    },
+    {
+      "id": "collection",
+      "label": "Collection (title screen)",
+      "defaults": [
+        "KeyC"
+      ]
+    },
+    {
+      "id": "tabNext",
+      "label": "Next collection tab",
+      "defaults": [
+        "Tab",
+        "KeyE"
+      ]
+    },
+    {
+      "id": "tabPrev",
+      "label": "Previous collection tab",
+      "defaults": [
+        "KeyQ"
+      ]
+    },
+    {
+      "id": "chest",
+      "label": "Open the daily chest",
+      "defaults": [
+        "KeyO"
+      ]
+    }
+  ],
+  "mouse": [
+    "Every menu button and card can be clicked; buttons act when the mouse button is released",
+    "Click the pause, crash and finish screen buttons (resume, retry, next, courses)"
+  ],
+  "touch": [],
+  "howToPlay": [
+    {
+      "title": "Goal",
+      "body": "Pick a rider, pick a course and reach the finish line. The run counts as finished when any body part still attached to the living main rider touches the finish line, so a rider who was thrown off the vehicle can still tumble across it."
+    },
+    {
+      "title": "Riders",
+      "body": "Dottie Blaze rides a rocket wheelchair (Up / Down push the wheels, Left / Right lean, Space fires the rocket, Z ejects). Kip Kilowatt rides a self-balancing scooter (Up speeds up and it leans for you, Down brakes then reverses, Left / Right tilt, Space hops, Z ejects). Uncle Rudy & Pip ride a bicycle with a passenger (Up pedals, Down brakes or reverses, Left / Right lean, Space bunny hops, Shift ejects Pip, Z ejects Rudy). Jojo the Clown rides a pogo stick (hold Space to squash the spring and release to bounce, Up / Down hop forward / backward, Left / Right tilt, Z ejects)."
+    },
+    {
+      "title": "Courses",
+      "body": "Five courses, all open from the start: Ward Nine (par 0:40), Harpoon Alley (0:55), Minefield Meadow (1:00), The Big Drop (1:10) and The Gauntlet (1:30). Hazards include spike pits, wrecking balls, glass, harpoon turrets, land mines, saw blades, falling logs, spinning beams, moving platforms, seesaws and a runaway van. Saved winning runs exist for every rider on the first two courses; on courses 3 to 5 only some riders have one (Rudy & Pip and Kip on course 3, Dottie and Rudy & Pip on courses 4 and 5)."
+    },
+    {
+      "title": "Dying",
+      "body": "Riders bleed, lose limbs at the joints and die from, among other things, head injuries, too many injuries at once, being crushed, decapitation, blood loss, explosions, saw blades, harpoons or falling out of the world. R restarts the course at any time; after a crash, Enter or Space retries."
+    },
+    {
+      "title": "Stars",
+      "body": "Each course has 3 stars, kept across runs and riders: finish the course; finish under par; and reach the course style score (700 on Ward Nine, 900 on Harpoon Alley, 1100 on Minefield Meadow, 1000 on The Big Drop, 1400 on The Gauntlet). The par and style stars only count on a run that finishes."
+    },
+    {
+      "title": "Style score",
+      "body": "Airtime scores 100 per second (at least 0.75 s in the air, 1.15 s on the pogo stick), each flip 300, a severed limb 150, a decapitation or being torn in half 250, each coin 25. Tricks within 2.5 s of each other build a combo multiplier that rises by 0.5 per trick up to x5 (coins are not multiplied); dying breaks the combo."
+    },
+    {
+      "title": "Coins and cosmetics",
+      "body": "Coin tokens float along every course. Coins are banked when a run finishes or crashes; restarting or quitting mid-run forfeits them. Skins, hats and trails unlock from stars, coins, the day streak (3 and 7 days) or the daily chest. Cosmetics only change how riders look, never the physics."
+    },
+    {
+      "title": "Daily challenge",
+      "body": "The local date picks a course, a rider with a saved winning run on it, a hazard seed and a modifier (big heads, disco lights, or extra points for coins, airtime, gore or time). The daily score is style + 1000 for finishing + 25 per second under par (tripled by the Speed Run modifier); a crash scores style + 500 x the share of the course covered. Playing any run on consecutive days builds the day streak, and one free chest per day gives coins and sometimes a chest-only cosmetic."
+    },
+    {
+      "title": "Pause and saves",
+      "body": "P pauses, and the game also pauses when the window loses focus. Esc goes back one screen. Progress is saved in this browser under stoinly.wreckriders.meta.v1; best times from the older wreck-riders-best key are carried over once."
+    }
+  ],
+  "settingsSupport": {
+    "audio": true,
+    "music": false,
+    "shake": true,
+    "flashes": true,
+    "particles": true,
+    "textScale": "partial",
+    "colorblind": true,
+    "performance": true,
+    "rebinding": true
+  }
+}
